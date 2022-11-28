@@ -5,6 +5,14 @@ import com.vucic.coursematerials.R;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The hardcoded implementation of a MovieRepository interface. Used only for practice here,
+ * in the real-world you could see something like this when you are working in parallel
+ * with the development of the server, and you need to mock some data for yourself. It's a good skill to have.
+ * Later it's easy to swap out the HardCoded repo with another one (either local or remote)
+ * because of the usage of the interface.
+ * @see MovieRepository
+ */
 public class HardCodedMovieRepository implements MovieRepository {
     // TODO: Add more Movie genres
     public static final MovieGenre MOVIE_GENRE_ROMANCE = new MovieGenre(1, "Romance", R.color.movie_genre_color_1);
@@ -30,7 +38,7 @@ public class HardCodedMovieRepository implements MovieRepository {
 
     // TODO: Add more movies
     // Copy the block of code that I added for adding Titanic and just change the data
-    // It's important to learn how to realistically hardcode data and test your app with that
+    // It's important to learn how to realistically hardcode data to test your app with
     // I usually google for my data, here I looked on IMDB, for the books I used google books API
     // The data doesn't necessarily have to be correct, you're free to improvise :)
     // Little help for adding the image: I just download an image on google of what I want,

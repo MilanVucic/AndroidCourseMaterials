@@ -3,9 +3,12 @@ package com.vucic.coursematerials.lesson_4.movies;
 import java.util.List;
 
 /**
+ * @author Milan
+ * @version 1.0
+ *
  * This is called a Java doc. It is slightly different than a normal comment.
- * It can have annotations like @returns or @param
- * But it's basically a normal comment formatted nicely for the programmers to read well.
+ * It can have annotations like @return, @param, @see, @author, @version, @link etc.
+ * It's basically a normal comment formatted nicely for the programmers to read.
  *
  * Movie represents one single movie entry. For the sake of simplicity, some concessions were made
  * that are rarely seen in a real world project. Director and actors being Strings is just one of them.

@@ -25,6 +25,6 @@ public class MovieGenre {
     // Use the action called Generate. Right-click anywhere in file, find "Generate" and click it.
     // ALT+Insert also does the job. Click Getters and Setters and select the fields you want.
     // Pro tip: you can search almost anything in Android studio. The way I do this
-    // ALT+Insert search for 'gs', enter, holding down shift clicking down (however many times to select all fields) enter
+    // ALT+Insert search for 'gs', enter, holding down shift click down arrow (however many times to select all fields) enter
     // You can get really quick with shortcuts if you learn to use them right :)
 }
