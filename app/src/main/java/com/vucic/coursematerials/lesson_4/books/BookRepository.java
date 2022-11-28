@@ -1,4 +1,4 @@
-package com.vucic.coursematerials.lesson_4;
+package com.vucic.coursematerials.lesson_4.books;
 
 import com.vucic.coursematerials.R;
 
