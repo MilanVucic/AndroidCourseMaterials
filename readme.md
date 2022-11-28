@@ -13,7 +13,7 @@ For example, the `XML` files used in lesson 2, will have a prefix `lesson_2_`, w
 This is a list of shortcuts I personally like to use in IntelliJ products, refer to the link below for a comprehensive list. They work across all of their platforms. The shortcuts I use are for Windows, so sorry Mac users, but I have a solution for you. Use the first shortcut that searches for actions and learn Mac equivalents for them or just visit [this link to find your shortcut](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html).
 #### General
 - `CTRL+SHIFT+A` Search actions - basically searches all the other shortcuts that you forget. Example of what you can search: `rename`, `generate`, `pull`, `git`, `build`, `build apk` and so on. Endless possibilities. Single most powerful shortcut.
-- `ALT+ENTER` Quick Actions. Very useful and widely used shortcut. When you have an error or a warning in the code, usually Android studio will have several ideas on how to help you fix it. Depending on the context, these actions will differ, so explore them as you need.
+- `ALT+ENTER` Quick Actions. Can be used only on errors and warnings. Very useful shortcut. When you have an error or a warning in the code, usually Android studio will have several ideas on how to help you fix it. Depending on the context, these actions will differ, so explore them as you need.
 - `CTRL+F` Search in file - normal search that exists almost in any program you ever open. From Chrome, to Word, any app has this.
 - `CTRL+SHIFT+F` Powerful search with many additional options (across whole project, or certain folders or files). Explore options as you need. Supports RegEx search too.
 - `CTRL+R` Find and Replace. Self-explanatory, you can replace one match at a time or all at once.
@@ -21,7 +21,7 @@ This is a list of shortcuts I personally like to use in IntelliJ products, refer
 - `CTRL+Z`, `CTRL_SHIFT+Z` Undo & Redo. Keep in mind that you can undo and redo almost any action, not just text typing, but file creation, deletion, renaming, extracting a resource etc.
 
 #### Navigation
-- `SHIFT+SHIFT`Search for files. Used quite often to quickly navigate. As any search in IntelliJ products, it's "smart". This means that if you're looking for a file named "MyBookCollection" you can just type "MBC" or "MyBoColl" or something similar and it'll still find it. You don't have to finish long words so you can get really fast at this.
+- `SHIFT+SHIFT` Search for files. Used quite often to quickly navigate. As any search in IntelliJ products, it's "smart". This means that if you're looking for a file named "MyBookCollection" you can just type "MBC" or "MyBoColl" or something similar and it'll still find it. You don't have to finish long words so you can get really fast at this.
 - `Holding CTRL and clicking with the mouse` Everything becomes clickable while holding `CTRL`. Clicking on variable/method/class usage in code will take you to their respective declaration, while clicking on the declaration will give you a list of their usages across all files. This is very useful when learning a new project in a firm. There are likely to be many files which you don't know the names of, how they work or how they're correlated with each other. In an example:
   `MovieRepository movieRepository = new HardCodedMovieRepository();  
   movieRepository.getMovieGenres();`  
@@ -42,8 +42,8 @@ Keep in mind that some of these are general shortcuts in any text editor.
 - `Holding down ctrl` Combine with arrows to jump over whole words rather than letters at a time when clicking an arrow.
 - `PRO TIP` Holding down both `CTRL` and `SHIFT` at the same time allow you to select whole words much faster.
 - `CTRL+D` Duplicate. Instantly duplicates a line your cursor is in. Useful when repeating a few lines for mocking data or adding fields in a new class etc. Selecting a block of code duplicates the whole block rather than a single line.
-- `CTRL+/`Comments out the line your cursor is in. Selecting a block comments out a whole block
-- `CTRL+ALT+L`Format file. Fixes little irregularities in your files like missing a space before or after `=`, `,`fixes improper indentation, removes unused imports etc.
+- `CTRL+/` Comments out the line your cursor is in. Selecting a block comments out a whole block
+- `CTRL+ALT+L` Format file. Fixes little irregularities in your files like missing a space before or after `=`, `,`fixes improper indentation, removes unused imports etc.
 - `CTRL+W` Close current tab. THIS is not a default shortcut. I don't know the default one. The point is that you can customize any shortcut and I opted for `CTRL+W` because that closes the tab in Chrome. Go to Settings, find "Keymap", find the shortcuts that you want to customize and do so :)
 - `Holding down CTRL+SHIFT or ALT+SHIFT` and then using `up`or `down` arrows to rearrange lines. If a block is selected, it rearranges the whole block. There's a subtle difference between the two but they're quite similar. Explore :)
 - `TAB`/`SHIFT+TAB` Indent/Un-indent selected line or block
@@ -55,7 +55,7 @@ Keep in mind that some of these are general shortcuts in any text editor.
   >Pro tip: These actions are searchable so you can do `ALT+INSERT` , then type 'gs' and click Getters and Setters.
 - `CTRL+O`/`CTRL+I` Override/Implement methods. Lets you pick methods to override/implement from its superclasses.
 #### Refactor
-- `SHIFT+F6`Rename. Works on files, variables, classes, methods, almost anything that can be renamed. Usually works in XML as well. Very important to use this when renaming because it also renames all the references to that method, class, variable, or even an ID in the XML.
+- `SHIFT+F6` Rename. Works on files, variables, classes, methods, almost anything that can be renamed. Usually works in XML as well. Very important to use this when renaming because it also renames all the references to that method, class, variable, or even an ID in the XML.
 >Pay attention: You may have to also hold Fn key depending on your F-keys setup on a laptop. This is the case for me.
 - `CTRL+ALT+C` Extract to constant. Creates a constant out of a selected block (usually a single value). This is useful for keeping your code clean as you don't want to have random numbers scattered around the code, but rather some constants.
 - `CTRL+ALT+V` Extract to variable. Creates a variable out of a selected block.
