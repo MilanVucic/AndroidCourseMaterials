@@ -7,9 +7,8 @@ I'll probably modify it as the course progresses, so make sure to always pull th
 Once you have opened your project locally, try to navigate to the file that you want to inspect,  
 learn from or just copy a piece of code to your own project.  
 I'll try to name files according to the lessons they appear in (or some other logical name).  
-For example, the `XML` files used in lesson 2, will have a prefix `lesson_2_` with full names like `lesson_2_1_basic_constrains` & `lesson_2_2_guidelines_barriers_chains`.
->PRO TIP: Use `shift+shift` shortcut to quickly search for a file by name.  
->E.g. Wanting to find files related to lesson 2: "less2" is what I'd type because the search is smart
+For example, the `XML` files used in lesson 2, will have a prefix `lesson_2_`, while Java files used in lesson 4 are all under `lesson_4` package.
+>PRO TIP: Use `shift+shift` shortcut to quickly search for a file by name.
 ## Useful Shortcuts
 This is a list of shortcuts I personally like to use in IntelliJ products, refer to the link below for a comprehensive list. They work across all of their platforms. The shortcuts I use are for Windows, so sorry Mac users, but I have a solution for you. Use the first shortcut that searches for actions and learn Mac equivalents for them or just visit [this link to find your shortcut](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html).
 #### General
