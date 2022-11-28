@@ -1,12 +1,12 @@
 
 # READ ME
-This project is supposed to help us both with learning and with homework.   
-You can download it from git and open locally to practice between classes.   
+This project will help you with learning and homework.   
+You should download it from git and open locally to practice between classes.   
 I'll probably modify it as the course progresses, so make sure to always pull the latest version.
 ## How to use
 Once you have opened your project locally, try to navigate to the file that you want to inspect,  
 learn from or just copy a piece of code to your own project.  
-I'll try to name files according to the lessons they appear in (or some other logical name).  
+I'll try to name files according to the lessons they appear in (in some logical manner).  
 For example, the `XML` files used in lesson 2, will have a prefix `lesson_2_`, while Java files used in lesson 4 are all under `lesson_4` package.
 >PRO TIP: Use `shift+shift` shortcut to quickly search for a file by name.
 ## Useful Shortcuts
