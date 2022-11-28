@@ -11,7 +11,7 @@ For example, the `XML` files used in lesson 2, will have a prefix `lesson_2_` wi
 >PRO TIP: Use `shift+shift` shortcut to quickly search for a file by name.  
 >E.g. Wanting to find files related to lesson 2: "less2" is what I'd type because the search is smart
 ## Useful Shortcuts
-This is a list of shortcuts I oersonally like to use in IntelliJ products, refer to the link below for a comprehensive list. They work across all of their platforms. The shortcuts I use are for Windows, so sorry Mac users, but I have a solution for you. Use the first shortcut that searches for actions and learn Mac equivalents for them or just visit [this link to find your shortcut](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html).
+This is a list of shortcuts I personally like to use in IntelliJ products, refer to the link below for a comprehensive list. They work across all of their platforms. The shortcuts I use are for Windows, so sorry Mac users, but I have a solution for you. Use the first shortcut that searches for actions and learn Mac equivalents for them or just visit [this link to find your shortcut](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html).
 #### General
 - `CTRL+SHIFT+A` Search actions - basically searches all the other shortcuts that you forget. Example of what you can search: `rename`, `generate`, `pull`, `git`, `build`, `build apk` and so on. Endless possibilities. Single most powerful shortcut.
 - `ALT+ENTER` Quick Actions. Very useful and widely used shortcut. When you have an error or a warning in the code, usually Android studio will have several ideas on how to help you fix it. Depending on the context, these actions will differ, so explore them as you need.
@@ -47,7 +47,7 @@ Keep in mind that some of these are general shortcuts in any text editor.
 - `CTRL+ALT+L`Format file. Fixes little irregularities in your files like missing a space before or after `=`, `,`fixes improper indentation, removes unused imports etc.
 - `CTRL+W` Close current tab. THIS is not a default shortcut. I don't know the default one. The point is that you can customize any shortcut and I opted for `CTRL+W` because that closes the tab in Chrome. Go to Settings, find "Keymap", find the shortcuts that you want to customize and do so :)
 - `Holding down CTRL+SHIFT or ALT+SHIFT` and then using `up`or `down` arrows to rearrange lines. If a block is selected, it rearranges the whole block. There's a subtle difference between the two but they're quite similar. Explore :)
-- `TAB`/`SHIFT+TAB` Indent/Unindent selected line or block
+- `TAB`/`SHIFT+TAB` Indent/Un-indent selected line or block
 - `CTRL+P` Parameter info. Shows the parameters of a method closest to your cursor.
 #### Generate
 - `ALT+INSERT` (very useful for two things):
